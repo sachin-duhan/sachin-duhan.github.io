@@ -499,9 +499,18 @@ button:focus {
 
 .home_banner_area {
     z-index: 1;
-    /* background: url('/img/banner/hacker.jpg') no-repeat center; */
-    background-size: cover;
+    background: url('/img/banner_bg.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+    background-size: contain;
     color: white;
+}
+
+@media(max-width: 990px) {
+    .home_banner_area {
+        background: none;
+    }
 }
 
 .home_banner_area .banner_inner {
@@ -589,7 +598,7 @@ button:focus {
 
 .hover-text-main {
     transition: 200ms ease-in-out;
-    color: rgb(158, 155, 155);
+    color: #ffffff;
 }
 
 .hover-text-main:hover {
@@ -607,7 +616,7 @@ button:focus {
 
 .side_icon_div {
     position: absolute;
-    top: -60px;
+    top: -100px;
     right: -80px;
 }
 
@@ -2138,17 +2147,11 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 
-.blog_version .footer_area {
-    background: #f9f9fd;
-}
-
-.blog_version .footer_area:before {
-    content: none;
-}
-
 .footer_area {
     padding: 120px 0;
     position: relative;
+    background: url('../img/footer-bg.png') no-repeat center;
+    background-size: cover;
 }
 
 .footer_area:before {
