@@ -502,7 +502,7 @@ button:focus {
     background: url('/img/banner_bg.png');
     background-position: right;
     background-repeat: no-repeat;
-    background-position-y: -70px;
+    background-position-y: -40px;
     background-size: contain;
     color: white;
 }
@@ -602,7 +602,7 @@ button:focus {
 }
 
 .hover-text-main:hover {
-    color: #4458dc;
+    color: #d4d8f7;
 }
 
 @media(max-width:1086px) {
