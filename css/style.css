@@ -16,6 +16,10 @@ body {
     background: url(../img/body-bg.png) no-repeat center;
 }
 
+.loaded {
+    display: block;
+}
+
 h1,
 h2,
 h3,
