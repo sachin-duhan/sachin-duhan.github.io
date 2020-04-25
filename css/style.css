@@ -506,7 +506,7 @@ button:focus {
     background: url('/img/banner_bg.png');
     background-position: right;
     background-repeat: no-repeat;
-    background-position-y: -40px;
+    background-position-y: -30px;
     background-size: contain;
     color: white;
 }
