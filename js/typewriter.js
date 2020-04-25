@@ -2,7 +2,7 @@
     'use strict';
     window.onload = function() {
         Typed.new('#typed', {
-            loop: false,
+            loop: true,
             typeSpeed: 9,
             backSpeed: 1,
             startDelay: 100,
@@ -122,7 +122,7 @@
         })
     }), t.Typed = i;
     var r = {
-        strings: [`<i class="fa fa-laptop text-muted pr-2"></i> Student at Delhi Technological University`, `I'm a Full stack Developer... <i class="fa fa-code"></i>`, `A promising Machine Learning <i class="fa fa-database pl-2 pr-2 gradient-text"></i> Engineer `, `I Love <i class="fa fa-heart text-danger"></i> problem solving and Programming...`],
+        strings: [`<i class="fa fa-laptop text-muted pr-2"></i> Student at Delhi Technological University`, `I'm a <i class="fa pl-2 pr-2 fa-code"></i> Full stack Developer...`, `A promising Machine Learning <i class="fa fa-database pl-2 pr-2 gradient-text"></i> Engineer `, `I Love <i class="fa fa-heart text-danger"></i> problem solving and Programming...`],
         stringsElement: null,
         typeSpeed: 0,
         startDelay: 0,
