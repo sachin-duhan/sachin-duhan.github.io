@@ -2395,21 +2395,18 @@ h6 {
     }
 }
 
-align: center;
-position: relative;
-margin-top: 25px;
-
-}
 @media only screen and (max-width: 991px) {
     .client-info {
         margin-top: 50px;
     }
 }
+
 @media (max-width: 575px) {
     .client-info {
         padding-top: 50px;
     }
 }
+
 .client-info:before {
     content: '';
     position: absolute;
@@ -2419,17 +2416,20 @@ margin-top: 25px;
     height: 175px;
     width: 175px;
 }
+
 @media (max-width: 575px) {
     .client-info:before {
         background: none;
     }
 }
+
 @media (max-width: 575px) {
     .client-info .d-flex {
         -ms-flex-align: center;
         align-items: center;
     }
 }
+
 .client-info .lage {
     color: #854fee;
     font-family: "Rubik", sans-serif;
@@ -2439,6 +2439,7 @@ margin-top: 25px;
     position: relative;
     z-index: 9;
 }
+
 .client-info .smll {
     text-align: left;
     color: #000000;
@@ -2446,19 +2447,23 @@ margin-top: 25px;
     font-size: 20px;
     margin-left: 20px;
 }
+
 .call-now {
     padding-top: 50px;
     text-align: left;
     margin-bottom: 40px;
 }
+
 @media (max-width: 575px) {
     .call-now {
         padding-top: 0px;
     }
 }
+
 .navbar .main_menu {
     background-color: transparent;
 }
+
 .coursera-certificate,
 .udemy-certificate {
     min-height: 150px;
@@ -2469,12 +2474,15 @@ margin-top: 25px;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
+
 .coursera-certificate {
     background-image: url('/img/certificate/coursera.png');
 }
+
 .udemy-certificate {
     background-image: url('/img/certificate/udemy.png');
 }
+
 .certi-container .rounded .shadow {
     align-items: center;
     align-content: center;
@@ -2483,11 +2491,20 @@ margin-top: 25px;
     border-radius: 10px;
     background-color: white;
 }
+
 .certi-container .rounded .shadow h6 a {
     line-height: 20px;
     color: #222222;
     transition: ease-in-out 300ms;
 }
+
 .certi-container .rounded .shadow h6 a:hover {
     color: #4458dc;
+}
+
+.contact-button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 20px rgba(255, 255, 255, 0.2), 0 0.5px 30px rgba(255, 255, 255, 0.1);
 }
