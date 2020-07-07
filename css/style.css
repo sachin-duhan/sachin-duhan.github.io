@@ -1574,6 +1574,7 @@ h6 {
 }
 
 .feature_item:hover {
+    border-radius: 18px;
     box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
     background: #fff;
 }
