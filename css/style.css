@@ -2525,3 +2525,20 @@ h6 {
     border-radius: 20px;
     box-shadow: 0 1px 20px rgba(255, 255, 255, 0.2), 0 0.5px 30px rgba(255, 255, 255, 0.1);
 }
+
+.typed-cursor {
+    animation-name: blink;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,18 +1,18 @@
+"use strict";
 (function() {
     'use strict';
     window.onload = function() {
         Typed.new('#typed', {
             loop: true,
-            typeSpeed: 9,
-            backSpeed: 1,
-            startDelay: 100,
-            backDelay: 1200
+            typeSpeed: 18,
+            backSpeed: 2,
+            startDelay: 10,
+            backDelay: 2000
         });
     };
 }());
 
 ! function(t, s, e) {
-    "use strict";
     var i = function(t, s) {
         var i = this;
         this.el = t, this.options = {}, Object.keys(r).forEach(function(t) {
