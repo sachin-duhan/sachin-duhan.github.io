@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
 * {
     scroll-behavior: smooth;
     padding: 0;
@@ -471,6 +472,7 @@ button:focus {
     .header_area.white_menu .navbar .navbar-brand img {
         display: none;
     }
+
     .header_area.white_menu .navbar .navbar-brand img+img {
         display: inline-block;
     }
@@ -480,6 +482,7 @@ button:focus {
     .header_area.white_menu .navbar .navbar-brand img {
         display: inline-block;
     }
+
     .header_area.white_menu .navbar .navbar-brand img+img {
         display: none;
     }
@@ -629,6 +632,7 @@ button:focus {
     .side_icon_div {
         display: none;
     }
+
     body {
         overflow-x: hidden;
     }
@@ -1499,6 +1503,7 @@ h6 {
     .about_area .about_img {
         right: 0;
     }
+
     .about_area .about_img img {
         max-width: 100%;
         height: auto;
@@ -1775,21 +1780,25 @@ h6 {
 ============================================================================================ */
 
 @media (max-width: 1619px) {
+
     /* Main Menu Area css
   ============================================================================================ */
     .header_area .navbar .search {
         margin-left: 40px;
     }
+
     /* End Main Menu Area css
   ============================================================================================ */
 }
 
 @media (max-width: 1199px) {
+
     /* Main Menu Area css
   ============================================================================================ */
     .header_area .navbar .nav .nav-item {
         margin-right: 28px;
     }
+
     /* End Main Menu Area css
   ============================================================================================ */
     /* Home Banner Area css
@@ -1797,15 +1806,18 @@ h6 {
     .home_banner_area .banner_inner {
         padding: 100px 0px;
     }
+
     /* End Home Banner Area css
   ============================================================================================ */
     .header_area .navbar .primary_btn {
         margin-left: 40px;
     }
+
     .home_banner_area .banner_inner .banner_content h2 br {
         display: none;
         font-size: 36px;
     }
+
     .home_banner_area .banner_inner .banner_content h2 {
         font-size: 36px;
         line-height: 45px;
@@ -1813,6 +1825,7 @@ h6 {
 }
 
 @media (max-width: 991px) {
+
     /* Main Menu Area css
   ============================================================================================ */
     .navbar-toggler {
@@ -1823,25 +1836,31 @@ h6 {
         margin-top: 27px;
         margin-bottom: 23px;
     }
+
     .header_area .navbar {
         background: #000;
     }
+
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
         opacity: 1;
     }
+
     .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
         opacity: 0;
     }
+
     .navbar-toggler[aria-expanded="true"] span:first-child {
         transform: rotate(-45deg);
         position: relative;
         top: 7.5px;
     }
+
     .navbar-toggler[aria-expanded="true"] span:last-child {
         transform: rotate(45deg);
         bottom: 6px;
         position: relative;
     }
+
     .navbar-toggler span {
         display: block;
         width: 25px;
@@ -1852,21 +1871,26 @@ h6 {
         transition: all 400ms linear;
         cursor: pointer;
     }
+
     .navbar .container {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .nav {
         padding: 0px 0px;
     }
+
     .header_area+section,
     .header_area+row,
     .header_area+div {
         margin-top: 117px;
     }
+
     .header_top .nav {
         padding: 0px;
     }
+
     .header_area .navbar .nav .nav-item .nav-link {
         line-height: 40px;
         margin-right: 0px;
@@ -1875,35 +1899,44 @@ h6 {
         border-radius: 0px;
         color: #fff;
     }
+
     .header_area .navbar .search {
         margin-left: 0px;
     }
+
     .header_area .navbar-collapse {
         max-height: 340px;
         overflow-y: scroll;
     }
+
     .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
         padding: 0px 15px;
     }
+
     .header_area .navbar .nav .nav-item {
         margin-right: 0px;
     }
+
     .header_area+section,
     .header_area+row,
     .header_area+div {
         margin-top: 0px;
     }
+
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
         line-height: 40px;
         color: #fff;
     }
+
     .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
         line-height: 40px;
         color: #fff;
     }
+
     .header_area.white_menu .navbar .nav .nav-item .nav-link {
         color: #222;
     }
+
     /* End Main Menu Area css
   ============================================================================================ */
     /* Start Home banner Area css
@@ -1911,9 +1944,11 @@ h6 {
     .home_banner_area {
         margin-top: 0;
     }
+
     .home_right_img {
         display: none;
     }
+
     /* Footer Area css
   ============================================================================================ */
     .footer_area {
@@ -1922,24 +1957,30 @@ h6 {
         background-image: none !important;
         background-color: #fcf8ff;
     }
+
     /* Blog page Area css
   ============================================================================================ */
     .categories_post img {
         width: 100%;
     }
+
     .categories_post {
         max-width: 360px;
         margin: 0 auto;
     }
+
     .blog_categorie_area .col-lg-4 {
         margin-top: 30px;
     }
+
     .blog_area {
         padding-bottom: 80px;
     }
+
     .single-post-area .blog_right_sidebar {
         margin-top: 30px;
     }
+
     /* End Blog page Area css
   ============================================================================================ */
     /* Contact Page Area css
@@ -1947,38 +1988,47 @@ h6 {
     .contact_info {
         margin-bottom: 50px;
     }
+
     /* End Contact page Area css
   ============================================================================================ */
     .home_banner_area .donation_inner {
         margin-bottom: -30px;
     }
+
     .home_banner_area .dontation_item {
         max-width: 350px;
         margin: auto;
     }
+
     /* Footer Area css
   ============================================================================================ */
     .footer_area .col-sm-6 {
         margin-bottom: 30px;
     }
+
     .footer_area .footer_inner {
         margin-bottom: -30px;
     }
+
     .news_widget {
         padding-left: 0px;
     }
+
     /* End End Footer Area css
   ============================================================================================ */
     .home_banner_area .banner_inner .home_left_img {
         display: none;
     }
+
     .left_side_text {
         margin-bottom: 50px;
     }
+
     .price_item {
         max-width: 360px;
         margin: 0px auto 30px;
     }
+
     .price_inner {
         margin-bottom: -30px;
     }
@@ -1988,45 +2038,55 @@ h6 {
     .home_banner_area {
         min-height: 300px;
     }
+
     .home_banner_area .banner_inner {
         min-height: 300px;
         padding-top: 100px;
         padding-bottom: 50px;
     }
+
     .home_banner_area .banner_inner .banner_content {
         margin-top: 0px;
     }
+
     /* Blog Page Area css
   ============================================================================================ */
     .blog_info.text-right {
         text-align: left !important;
         margin-bottom: 10px;
     }
+
     /* End Blog Page Area css
   ============================================================================================ */
     .home_banner_area .banner_inner .banner_content h3 {
         font-size: 30px;
     }
+
     .home_banner_area .banner_inner .banner_content p br {
         display: none;
     }
+
     .home_banner_area .banner_inner .banner_content h3 span {
         line-height: 45px;
         padding-bottom: 0px;
         padding-top: 0px;
     }
+
     /* Footer Area css
   ============================================================================================ */
     .footer_area .f_title {
         margin-bottom: 20px;
     }
+
     .footer-bottom {
         text-align: center;
     }
+
     .footer-bottom .footer-social {
         text-align: center;
         margin-top: 15px;
     }
+
     /* End End Footer Area css
   ============================================================================================ */
     .made_life_inner .nav.nav-tabs li {
@@ -2034,9 +2094,11 @@ h6 {
         max-width: 50%;
         margin-bottom: 15px;
     }
+
     .made_life_inner .nav.nav-tabs {
         margin-bottom: -15px;
     }
+
     .made_life_area.made_white .left_side_text {
         margin-bottom: 0px;
         margin-top: 30px;
@@ -2044,38 +2106,47 @@ h6 {
 }
 
 @media (max-width: 575px) {
+
     .header_area+section,
     .header_area+row,
     .header_area+div {
         margin-top: 0px;
     }
+
     /* Home Banner Area css
   ============================================================================================ */
     .home_banner_area .banner_inner .banner_content h2 {
         font-size: 28px;
         line-height: 38px;
     }
+
     .home_banner_area {
         min-height: 450px;
     }
+
     .home_banner_area .banner_inner {
         min-height: 450px;
     }
+
     .home_banner_area .banner_inner .banner_content img {
         display: none;
     }
+
     .home_banner_area .banner_inner .banner_content h5 {
         margin-top: 0px;
     }
+
     /* End Home Banner Area css
   ============================================================================================ */
     .section_gap {
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
     .main_title h2 {
         font-size: 25px;
     }
+
     /*Recent Update Area css
   ============================================================================================ */
     /* Elements Area css
@@ -2083,9 +2154,11 @@ h6 {
     .sample-text-area {
         padding: 70px 0 70px 0;
     }
+
     .generic-blockquote {
         padding: 30px 15px 30px 30px;
     }
+
     /* End Elements Area css
   ============================================================================================ */
     /* Blog Page Area css
@@ -2094,6 +2167,7 @@ h6 {
         font-size: 20px;
         line-height: 30px;
     }
+
     /* End Blog Page Area css
   ============================================================================================ */
     /* Footer Area css
@@ -2101,25 +2175,30 @@ h6 {
     .footer-area {
         padding: 70px 0px;
     }
+
     .news_widget {
         padding-left: 0 !important;
     }
+
     /* End End Footer Area css
   ============================================================================================ */
     .pad_top {
         padding-top: 70px;
     }
+
     .pad_btm {
         padding-bottom: 70px;
     }
 }
 
 @media (max-width: 480px) {
+
     /* Main Menu Area css
   ============================================================================================ */
     .header_area .navbar-collapse {
         max-height: 250px;
     }
+
     /* End Main Menu Area css
   ============================================================================================ */
     /* Home Banner Area css
@@ -2128,34 +2207,41 @@ h6 {
         padding: 30px 15px;
         margin-top: 0px;
     }
+
     .home_banner_area .banner_inner .banner_content h3 {
         font-size: 24px;
     }
+
     /* End Home Banner Area css
   ============================================================================================ */
     .banner_area .banner_inner .banner_content h2 {
         font-size: 32px;
     }
+
     /* Blog Page Area css
   ============================================================================================ */
     .comments-area .thumb {
         margin-right: 10px;
     }
+
     /* End Blog Page Area css
   ============================================================================================ */
     .testi_item .media .d-flex {
         padding-right: 0px;
     }
+
     .testi_item .media .d-flex img {
         width: auto;
         margin-bottom: 15px;
     }
+
     .testi_item .media {
         display: block;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
     /* Start Brand Carousel Area css
   ============================================================================================ */
     .brand-carousel .single-brand-item {
@@ -2261,6 +2347,7 @@ h6 {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -2270,6 +2357,7 @@ h6 {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -2538,7 +2626,12 @@ h6 {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
+}
+
+footer .fa {
+    color: white;
 }
