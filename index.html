@@ -7,13 +7,15 @@
     <title>Sachin Duhan</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <script src="https://use.fontawesome.com/ac83601fe6.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/projects.css">
 </head>
 
 <body>
-    <!--================ Start Header Area =================-->
     <header class="header_area animated fadeIn">
         <div class="main_menu">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -28,7 +30,7 @@
                             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#certificate">Certification</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                             <li class="nav-item"><a class="nav-link" href="#life">Me & My life</a></li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">
@@ -40,9 +42,7 @@
             </nav>
         </div>
     </header>
-    <!--================ End Header Area =================-->
 
-    <!--================ Start Home Banner Area =================-->
     <section class="home_banner_area animated fadeIn intro" data-aos="fade-in-top">
         <div class="banner_inner">
             <div class="container d-flex align-items-center" style="min-height: 100vh;">
@@ -85,9 +85,7 @@
             </div>
         </div>
     </section>
-    <!--================ End Home Banner Area =================-->
 
-    <!--================ Start About Us Area =================-->
     <section class="about_area animated fadeIn" id="about">
         <div class="container">
             <div class="row justify-content-start align-items-center mt-5">
@@ -200,11 +198,9 @@
             </div>
         </div>
     </section>
-    <!--================ End About Us Area =================-->
 
-    <br><br><br><br>
-    <!--================ Start Features Area =================-->
-    <section id="skills" class="features_area animated fadeIn ">
+    <br><br><br>
+    <section id="skills" class="animated fadeIn ">
         <div class="container ">
             <div class="row justify-content-center ">
                 <div class="col-lg-8 text-center ">
@@ -342,123 +338,123 @@
             </div>
         </div>
     </section>
-    <!-- 
-    <section id="projects">
-        
-    </section> -->
 
-    <!--================ End Features Area =================-->
-    <section id="certificate" class="features_area animated fadeIn ">
-        <div class="container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1B262C" fill-opacity="1"
+            d="M0,32L34.3,69.3C68.6,107,137,181,206,202.7C274.3,224,343,192,411,154.7C480,117,549,75,617,80C685.7,85,754,139,823,181.3C891.4,224,960,256,1029,240C1097.1,224,1166,160,1234,122.7C1302.9,85,1371,75,1406,69.3L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <section id="projects" style="background-color: #1B262C;">
+        <div class="conatiner">
             <div class="row justify-content-center ">
-                <div class="main_title">
-                    <h2 class="m-0 p-0">CERTIFICATION</h2>
+                <div class="col-lg-8 text-center ">
+                    <div class="main_title text-white">
+                        <h2 class="text-white animated fadeIn">Projects</h2>
+                        <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                            Transforming knowledge to skills to talent with perfection on top.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row certi-container justify-content-center p-2">
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="coursera-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://www.coursera.org/account/accomplishments/certificate/BQXU63BAS8F3">
-                                Competitve Programmer's Core Skills </a></h6>
+            <div class="col-sm-12 text-center">
+                <div class="owl-carousel owl-theme">
+                    <div class="item prev">
+                        <div class="card border-0 py-3 px-4 mb-5 animated fadeIn">
+                            <div class="row justify-content-center">
+                                <img src="img/icons/investment.svg" height="70" width="auto" class="mb-4 mt-3">
+                            </div>
+                            <h4 class="mb-3 mt-2">Invesment Prediction Model</h4>
+                            <p class="content mb-3 mx-2">
+                                Implemented a financial model from scratch using Python3 that estimates the return on
+                                investment & stock valuation using the discounted cash flow model & WACC. Implemented
+                                Object-Oriented Programming with unambiguous and comprehensible code.
+                            </p>
+                            <a class="primary_btn d-none d-md-block m-3"
+                                href="https://github.com/sachin-duhan26/DISCOUNTED_CASH_FLOW_MODEL" target="_blank">
+                                <span>View Project</span>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"><a target="_blank" href="#!">C++ Programming Course</a></h6>
+                    <div class="item first show">
+                        <div class="card border-0 py-3 px-4 mb-5 animated fadeIn">
+                            <div class="row justify-content-center">
+                                <img src="img/icons/cli.svg" height="70" width="auto" class="mb-4 mt-3">
+                            </div>
+                            <h4 class="mb-3 mt-2">Personalized CLI</h4>
+                            <p class="content mb-3 mx-2">
+                                Developing an intelligent CLI for process automation, running development servers,
+                                adding boilerplate code, building & executing program files, shell scripts, etc. The
+                                project helped me boosting productivity by 40% during online contests & routine work.
+                            </p>
+                            <a class="primary_btn d-none d-md-block m-3" href="https://github.com/sachin-duhan26/my-cli"
+                                target="_blank">
+                                <span>View Project</span>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-V85YNH0V.pdf"> Data
-                                Structure and Algorithm </a>
-                        </h6>
+                    <div class="item next">
+                        <div class="card border-0 py-3 px-4 mb-5 animated fadeIn">
+                            <div class="row justify-content-center">
+                                <img src="img/icons/management.svg" height="70" width="auto" class="mb-4 mt-3">
+                            </div>
+                            <h4 class="mb-3 mt-2">Intern Management Portal</h4>
+                            <p class="content mb-3 mx-2">
+                                Developed scalable & dynamic Full-stack App for lessening documentation, transaction
+                                monitoring, interview scheduling, recruitment, data processing, redressal, task
+                                management, and report evaluation. Currently used by DTU administration & over 7,500
+                                students
+                            </p>
+                            <a class="primary_btn d-none d-md-block m-3" href="https://usip-dtu.netlify.app"
+                                target="_blank">
+                                <span>View Project</span>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0">
-                            <a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-L4F6TR8R.pdf">ReactJS - The
-                                complete Guide </a>
-                        </h6>
+                    <div class="item next">
+                        <div class="card border-0 py-3 px-4 mb-5 animated fadeIn">
+                            <div class="row justify-content-center">
+                                <img src="img/icons/stock.svg" height="70" width="auto" class="mb-4 mt-3">
+                            </div>
+                            <h4 class="mb-3 mt-2">Mock Stocks Game</h4>
+                            <p class="content mb-3 mx-2">
+                                Organized a stocks market competition in DTU and developed a Mock Stocks Game App
+                                for a real-time price variation of the stock value in the pseudo online market using
+                                socket.io and node js. Generated revenue of 20,000 with 230+ onsite participants.
+                            </p>
+                            <a class="primary_btn d-none d-md-block m-3"
+                                href="https://github.com/sachin-duhan26/WSJ-mock-stocks-game" target="_blank">
+                                <span>View Project</span>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-RPICOP35.pdf"> Node Js </a></h6>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-58a3e5d6-b142-41fd-b2db-50e17091e747.pdf">
-                                Database Design and MYSQL </a>
-                        </h6>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-DX52JDRS.pdf"> Angular
-                                Developer Course </a></h6>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-JNEMCKQU.pdf">Python
-                                fundamentals </a></h6>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="coursera-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://www.coursera.org/account/accomplishments/certificate/SG5FWUA4J9LL">
-                                Getting started with Python</a>
-                        </h6>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="coursera-certificate"></div>
-                        <h6 class="p-2 pl-0"><a target="_blank"
-                                href="https://www.coursera.org/account/accomplishments/certificate/7E42DZN97JLD">
-                                Using Python to Access Web Data </a></h6>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"><a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-e5ccfc9c-da2a-4bff-a39c-01e882568ec0.pdf">
-                                Socket Programming in C language </a></h6>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 p-2 rounded">
-                    <div class="shadow" data-aos="fade-in-down">
-                        <div class="udemy-certificate"></div>
-                        <h6 class="p-2 pl-0"> <a target="_blank"
-                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-LRZNK1EL.pdf"> Responsive
-                                Frontend Developer </a></h6>
+                    <div class="item last">
+                        <div class="card border-0 py-3 px-4 mb-5 animated fadeIn">
+                            <div class="row justify-content-center">
+                                <img src="img/icons/network.svg" height="70" width="auto" class="mb-4 mt-3">
+                            </div>
+                            <h4 class="mb-3 mt-2">Network Analysis</h4>
+                            <p class="content mb-3 mx-2">
+                                Visualization and analysis of social media networks of users using graph algorithms.
+                                Performed a quantifiable measure of the interconnection of the nodes. Used Hierarchical
+                                k-means for grouping nodes for Metric Analysis & finding centroidal axis of cluster.
+                            </p>
+                            <a class="primary_btn d-none d-md-block m-3"
+                                href="https://network-analysis-gt.herokuapp.com/" target="_blank">
+                                <span>View Project</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--================Start Portfolio Area =================-->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="transform: rotateX(180deg);">
+        <path fill="#1B262C" fill-opacity="1"
+            d="M0,32L34.3,69.3C68.6,107,137,181,206,202.7C274.3,224,343,192,411,154.7C480,117,549,75,617,80C685.7,85,754,139,823,181.3C891.4,224,960,256,1029,240C1097.1,224,1166,160,1234,122.7C1302.9,85,1371,75,1406,69.3L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+
     <section id="life" class="portfolio_area animated fadeIn ">
         <div class="container ">
             <div class="row ">
@@ -578,9 +574,7 @@
             </div>
         </div>
     </section>
-    <!--================End Portfolio Area =================-->
 
-    <!--================Contact     Area =================-->
     <section id="contact" class="contact_area bg-white">
         <div class="container ">
             <div class="row ">
@@ -644,11 +638,11 @@
             </div>
         </div>
     </section>
-    <!--================Contact Area =================-->
+
     <div class="bg-white">
         <br><br><br>
     </div>
-    <!--================Footer Area =================-->
+
     <div class="bg-white">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#8074eb" fill-opacity="1"
@@ -688,17 +682,18 @@
             </div>
         </div>
     </footer>
-    <!--================End Footer Area =================-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
+        $('.carousel').carousel();
         AOS.init({
             duration: 1000,
             easing: 'ease-in-out',
         });
-    </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous">
     </script>
     <script src="js/main.js"></script>
     <script src="js/typewriter.js"></script>
